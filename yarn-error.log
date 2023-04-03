@@ -1,0 +1,54 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\rubes\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add react-select
+
+PATH: 
+  C:\Python311\Scripts\;C:\Python311\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\ProgramData\chocolatey\bin;C:\Program Files\dotnet\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\MinGW\mingw32\bin;C:\Program Files\nodejs\;R:\Git\cmd;C:\Users\rubes\Downloads\flutter_windows_2.8.1-stable\flutter\bin;C:\Python310\Scripts\;C:\Python310\;C:\Users\rubes\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\rubes\AppData\Local\Programs\Python\Python310\;C:\Users\rubes\AppData\Local\Microsoft\WindowsApps;C:\msys64\mingw64\bin;C:\Users\rubes\.dotnet\tools;C:\Users\rubes\Downloads\Compressed\WhoIs;C:\Program Files\Java\jdk-18.0.2.1\bin;C:\Users\rubes\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\rubes\AppData\Local\GitHubDesktop\bin;C:\Users\rubes\AppData\Roaming\npm;C:\Dev-Cpp\bin;C:\GnuWin32\bin;
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.12.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'R:\GitHub_Local\Chat-GPT-clone\chat-gpt-2.0\node_modules\@next\swc-win32-x64-msvc\next-swc.win32-x64-msvc.node'
+
+npm manifest: 
+  {
+    "private": true,
+    "scripts": {
+      "dev": "next dev",
+      "build": "next build",
+      "start": "next start"
+    },
+    "dependencies": {
+      "@heroicons/react": "^2.0.16",
+      "next": "latest",
+      "react": "18.2.0",
+      "react-dom": "18.2.0"
+    },
+    "devDependencies": {
+      "@types/node": "18.11.3",
+      "@types/react": "18.0.21",
+      "@types/react-dom": "18.0.6",
+      "autoprefixer": "^10.4.12",
+      "postcss": "^8.4.18",
+      "tailwindcss": "^3.2.4",
+      "typescript": "4.9.4"
+    },
+    "name": "firebase",
+    "description": "This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.2)](https://tailwindcss.com/blog/tailwindcss-v3-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).",
+    "version": "1.0.0",
+    "main": "next.config.js",
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
