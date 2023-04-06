@@ -1,17 +1,10 @@
 /** @type {import('next').NextConfig} */
-
-const path = require('path');
-const fs = require('fs');
-
-const appDirectory = fs.realpathSync(process.cwd());
-const appSrc = path.join(appDirectory, 'app');
-
-const nextConfig = {
-  pageExtensions: ['jsx', 'js'],
-  experimental: {
-    appDir: true,
-  },
+module.exports = {
   reactStrictMode: true,
+  images:{
+    domains:["links.papareact.com"],
+  },
+  experimental:{
+    appDir:true,
+  },
 };
-
-module.exports = nextConfig;

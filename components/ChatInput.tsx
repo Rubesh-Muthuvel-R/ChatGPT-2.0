@@ -36,7 +36,7 @@ export default function ChatInput({chatId}:Props){
         createdAt:serverTimestamp(),
         user:{
             _id:session?.user?.email!,
-            name:session?.user?.email!,
+            name:session?.user?.name!,
             avatar:session?.user?.image!||`https://ui-avatars.com/api/?name=${session?.user?.name}`,
         }
     }
@@ -54,8 +54,8 @@ export default function ChatInput({chatId}:Props){
             'Content-Type':'application/json'
         },
         body:JSON.stringify({
-            prompt:input,chatId,model,session
-        })
+            prompt:input,chatId,model,session,
+        }),
     }).then(()=>{
             //Toast notification for success
             toast.success("Response received",{

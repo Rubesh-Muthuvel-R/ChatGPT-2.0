@@ -40,7 +40,7 @@ export default function SideBar(){
                 </div>
             </div>
             {session && (
-                <img onClick={()=> signOut()}src={session.user?.image!} alt="Pro_pic" className="h-12 w-12 rounded-full cursor-pointer mx-auto mb-2 hover:opacity-50" />
+                <img onClick={()=> signOut()} src={session.user?.image!} alt="Pro_pic" className="h-12 w-12 rounded-full cursor-pointer mx-auto mb-2 hover:opacity-50" />
             )}
         </div>
     )
