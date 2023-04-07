@@ -15,7 +15,10 @@
     "react-firebase-hooks": "5.1.1",
     "firebase": "9.19.1",
     "react-hot-toast":"2.4.0",
-    "swr": "2.1.2"
+    "swr": "2.1.2",
+    "react-select": "5.7.2",
+    "openai": "3.2.1",
+    "firebase-admin": "11.6.0"
   },
   "devDependencies": {
     "@types/node": "18.11.3",
